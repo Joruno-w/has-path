@@ -19,6 +19,7 @@ $ npm install has-path
 import { hasPathSync, hasPath } from "path-exists";
 
 console.log(hasPathSync("index.js"));
+//=> true
 (async () => {
   console.log(await hasPath("index.js"));
 })();
