@@ -16,7 +16,7 @@ $ npm install has-path
 
 ```js
 // index.js
-import { hasPathSync, hasPath } from "path-exists";
+import { hasPathSync, hasPath } from "has-path";
 
 console.log(hasPathSync("index.js"));
 //=> true
