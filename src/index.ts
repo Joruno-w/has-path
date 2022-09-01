@@ -15,7 +15,7 @@ export const hasPath = async (path: string | string[]): Promise<boolean> => {
   }
 };
 
-export const hasPathSync = (path: string): boolean => {
+export const hasPathSync = (path: string | string[]): boolean => {
   try {
     if (Array.isArray(path)) {
       for (const p of path) {
